@@ -2,7 +2,7 @@
 
 Deploys AWS SAM Stacks using lightweight `alpine` Docker images.
 
-This action is forked from [r0zar/sam-deploy-action](https://github.com/r0zar/sam-deploy-action) with additional [features](https://github.com/r0zar/sam-deploy-action/pull/2).
+This action is forked from [falnyr/aws-sam-deploy-action](https://github.com/falnyr/sam-deploy-action)
 
 ## Usage
 
