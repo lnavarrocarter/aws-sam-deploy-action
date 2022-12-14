@@ -1,6 +1,6 @@
 # AWS SAM Deploy Action
 
-Deploys AWS SAM Stacks using lightweight `alpine` Docker images.
+Deploys AWS SAM Stacks using lightweight `alpine` Docker images ver 3.14.0 with the lastest version don't work.
 
 This action is forked from [falnyr/aws-sam-deploy-action](https://github.com/falnyr/sam-deploy-action)
 
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: lnavarrocarter/aws-sam-deploy-action@v1.5.0
+    - uses: lnavarrocarter/aws-sam-deploy-action@v1.6.0
       env:
         TEMPLATE: 'template.yaml'
         AWS_STACK_NAME: my-serverless-application
